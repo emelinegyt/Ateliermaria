@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fleuriste</title>
 	<link rel="stylesheet" href="../css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 </head>
@@ -42,34 +43,43 @@
 
 
 		<section>
+
 			<div id="atelier">
 				<div id="histoire">
-					<div class="titre">
-						<h2>Notre Atelier</h2>
+					<div data-aos="fade-left">
+						<div class="titre">
+							<h2 class="decouvrir">Notre Atelier</h2>
+						</div>
+						<div data-aos="fade-left"></div>
+						<p class="anim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+							Ipsum has been
+							the
+							industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+							of
+							type
+							and scrambled it to make a type specimen book. It has survived not only five centuries, but
+							also
+							the
+							leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+							1960s
+							with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+							desktop
+							publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 					</div>
-					<p class="anim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-						type
-						and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-						the
-						leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-						1960s
-						with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-						desktop
-						publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 			</div>
 
 
 
+
 		</section>
+
+
 
 		<div id="services">
 			<div>
 				<div class="titre">
 					<h2>Les plus</h2>
-					<span class="titreservice">Integer sit amet pede vel arcu aliquet pretium</span>
 				</div>
 				<div class="lesservices">
 					<div class="colonne">
@@ -110,33 +120,17 @@
 	</div>
 
 
-	<div id="slider-wrapper">
-		<div class="inner-wrapper">
-			<input checked type="radio" name="slide" class="control" id="Slide1" />
-			<label for="Slide1" id="s1"></label>
-			<input type="radio" name="slide" class="control" id="Slide2" />
-			<label for="Slide2" id="s2"></label>
-			<input type="radio" name="slide" class="control" id="Slide3" />
-			<label for="Slide3" id="s3"></label>
-			<input type="radio" name="slide" class="control" id="Slide4" />
-			<label for="Slide4" id="s4"></label>
-			<div class="overflow-wrapper">
-				<a class="slide" href=""><img src="../images/fleurs.jpg" /></a>
-				<a class="slide" href=""><img src="../images/bouquet.jpg" /></a>
-				<a class="slide" href=""><img src="../images/fleurs-jaune.jpg" /></a>
-				<a class="slide" href=""><img src="../images/fleurs-seche.jpg" /></a>
-			</div>
-		</div>
-	</div>
+
 
 
 	<section>
-		<div id="atelier">
+		<div id="vente">
 			<div id="histoire">
 				<div class="titre">
-					<h2>Notre Atelier</h2>
+					<h2 class="acheter">Les ventes</h2>
 				</div>
-				<p class="anim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+				<p class="lesventes">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+					has been
 					the
 					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
 					type
@@ -151,20 +145,33 @@
 		</div>
 	</section>
 
-	
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<h2>Vous pouvez me retrouvez ici !</h2>
-				<ul class="actions">
-					<li><span class="icon fa-phone"></span> <a href="#">06 44 55 44 33</a></li>
-					<li><span class="icon fa-envelope"></span> <a href="#">information@ateliermaria.fr</a></li>
-					<li><span class="icon fa-map-marker"></span> 123 rue Maaa eeff 85000 la Roche-sur-Yon</li>
-				</ul>
-			</div>
-		</footer>
 
-		
+
+
+	<!-- Footer ---->
+
+	<footer id="footer">
+		<div class="contact">
+			<H3>Me trouver :</H3>
+			<p>123 nulla a cursus 85300 L'hermed</p>
+		</div>
+		<div class="contact">
+			<H3>Horaire d'ouverture</H3>
+			<p>Lundi au jeudi : 8h-18h</p>
+			<p>Vendredi au Samedi : 7h-15h</p>
+		</div>
+		<div class="contact">
+			<H3>Me suivre : </H3>
+			<p>Lorem ispum</p>
+		</div>
+	</footer>
+
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 
