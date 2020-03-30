@@ -601,7 +601,6 @@ h2.acheter
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 70px;
 	
 }
 
@@ -610,7 +609,8 @@ div.contact{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	justify-content: center;
 	align-items: center;
 	color: #5e5c5a;
@@ -619,5 +619,13 @@ div.contact{
 
   }
 
+
+
+
+
+
+
+
+  
 
 
