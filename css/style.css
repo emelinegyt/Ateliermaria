@@ -318,7 +318,7 @@ div.box
 		color: rgba(0,0,0,0.7);
 		padding: 50px;
 		margin: 20px;
-		box-shadow: 1px 1px 3px rgb(219, 178, 178);
+		box-shadow: 4px 4px 0px rgb(219, 178, 178);
 		transition: 1.1s;
 		background: white;
 	}
