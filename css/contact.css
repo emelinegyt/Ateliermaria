@@ -98,17 +98,12 @@ input:focus, label, textarea:focus ~ label, input:valid ~ label, textarea:valid 
 
 .styled-input {
     float: left;
-    width: 293px;
+    width: 100%;
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
 }
 
-@media only screen and (max-width: 768px){
-    .styled-input {
-        width:100%;
-    }
-}
 
 .styled-input label {
     color: rgb(56, 56, 56);
@@ -179,13 +174,9 @@ textarea {
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
-@media (max-width: 768px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
+
+
+
 
 input[type=checkbox] + label {
   color: rgb(255, 255, 255);
@@ -195,4 +186,30 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: rgb(204, 182, 182);
   font-style: normal;
+}
+
+
+@media screen and (max-width: 700px){
+
+
+    nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .styled-input {
+        width:100%;
+    }
+    .input-container {
+        width: 80%;
+        max-width: 80%;
+        margin: 20px
+    }
+
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
 }
