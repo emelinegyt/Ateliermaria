@@ -504,11 +504,14 @@ a.mentions{
 		text-align: center;
 		color: rgb(255, 255, 255);
 	}
-	#footer {
+
+
+#footer {
 
 		width: 90%;
 		margin: auto;
 		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
 		
